@@ -32,3 +32,7 @@ jobs:
     if: github.repository == 'matrix-org/pinecone' && github.ref_name == 'main'
     needs: [build]
     uses: matrix-org/pinecone/.github/workflows/docker.yml@main
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
