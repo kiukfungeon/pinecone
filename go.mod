@@ -8,7 +8,7 @@ require (
 	github.com/gorilla/websocket v1.5.0
 	github.com/quic-go/quic-go v0.37.4
 	github.com/vishvananda/netlink v1.1.0
-	go.uber.org/atomic v1.9.0
+	go.uber.org/atomic v1.12.0
 	golang.org/x/mobile v0.0.0-20220722155234-aaac322e2105
 	golang.org/x/net v0.14.0
 	golang.org/x/sys v0.11.0
@@ -23,7 +23,6 @@ require (
 	github.com/klauspost/compress v1.15.9 // indirect
 	github.com/onsi/ginkgo/v2 v2.11.0 // indirect
 	github.com/quic-go/qtls-go1-20 v0.3.2 // indirect
-	github.com/stretchr/testify v1.7.0 // indirect
 	github.com/vishvananda/netns v0.0.0-20211101163701-50045581ed74 // indirect
 	golang.org/x/crypto v0.12.0 // indirect
 	golang.org/x/exp v0.0.0-20230809150735-7b3493d9a819 // indirect
