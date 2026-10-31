@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/Arceliar/phony v0.0.0-20210209235338-dde1a8dca979
-	github.com/RyanCarrier/dijkstra v1.1.0
+	github.com/RyanCarrier/dijkstra v1.4.0
 	github.com/gorilla/websocket v1.5.0
 	github.com/quic-go/quic-go v0.37.4
 	github.com/vishvananda/netlink v1.1.0
